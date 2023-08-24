@@ -1,0 +1,21 @@
+df = pd.read_csv('assessment.csv')
+
+# # 预览文件
+# df_test = df.head(100)
+# print(df_test)      #查看前100行数据
+# df.info()       #查看总体信息
+
+# # 数据质量分析
+# print(df['problem_id'].nunique() == df.shape[0])     # 检验id有无重复 结果为False
+#
+# print(df['problem_id'].nunique())       # 179999
+# print(df.shape[0])      # 6123270
+
+# # 异常值检验
+# print(df.isnull().sum())        # 查看空值
+# statistics = df['Average_confidence(FRUSTRATED)'].describe()       # 可查看平均值，方差，四分位数等特征
+# print(statistics)
+
+# sns.set()
+# sns.histplot(df['Average_confidence(CONCENTRATING)'], kde=True)     # 绘制概率密度直方图 kde为绘制概率密度曲线
+# plt.show()                                                          # 与网站数据图相符
