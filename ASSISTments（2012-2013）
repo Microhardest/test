@@ -19,3 +19,12 @@ df = pd.read_csv('assessment.csv')
 # sns.set()
 # sns.histplot(df['Average_confidence(CONCENTRATING)'], kde=True)     # 绘制概率密度直方图 kde为绘制概率密度曲线
 # plt.show()                                                          # 与网站数据图相符
+. 
+.
+.
+.
+.
+.
+.
+.
+.
